@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Tenho header e main */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 80%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #eeeeee;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 16px;
+    height: 80px;
+}
+
+.menu img {
+    width: 20%;
+}
+
+.menu h1 {
+    /* background-color: yellow; */
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
